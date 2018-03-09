@@ -1,0 +1,9 @@
+.file-header {
+  top: 0px;
+  position: sticky;
+  z-index: 1;
+}
+
+.files-bucket .file-header {
+    top: 60px;
+  }

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sticky Files",
+  "description": "This Github UI extension glues the file name to the header while you scroll.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "glue-icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["glue.css"]
+    }
+  ]
+}
