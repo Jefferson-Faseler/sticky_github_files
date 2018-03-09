@@ -4,6 +4,6 @@
   z-index: 1;
 }
 
-.files-bucket .file-header {
+.commentable .file-header {
     top: 60px;
   }
