@@ -4,6 +4,6 @@
   z-index: 1;
 }
 
-.commentable .file-header {
+.pull-request-tab-content .file-header {
     top: 60px;
   }
